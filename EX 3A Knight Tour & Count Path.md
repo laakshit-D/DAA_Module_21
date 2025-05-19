@@ -30,8 +30,7 @@ def isInside(x, y, N):
         y >= 1 and y <= N):
         return True
     return False
-def minStepToReachTarget(knightpos,
-                         targetpos, N):
+def minStepToReachTarget(knightpos,targetpos, N):
     # add your code here
     #Start here
     dx = [2, 2, -2, -2, 1, 1, -1, -1]
@@ -57,8 +56,7 @@ if __name__=='__main__':
     N = 30
     knightpos = [1, 1]
     targetpos = [30, 30]
-    print(minStepToReachTarget(knightpos,
-                               targetpos, N))
+    print(minStepToReachTarget(knightpos,targetpos, N))
 ```
 
 ## Output:
